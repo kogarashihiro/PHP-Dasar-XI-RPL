@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Percabangan Nilai</title>
+</head>
+<body>
+	<?php 
+	$nilai = 80;
+		if ($nilai >= 80) {
+			echo "Nilai Anda $nilai, Anda Lulus";
+		} else {
+			echo "Nilai Anda $nilai, Anda Tidak Lulus";
+		}
+	 ?>
+</body>
+</html>
